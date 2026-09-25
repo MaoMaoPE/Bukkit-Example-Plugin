@@ -1,0 +1,14 @@
+name: ExamplePlugin
+main: org.example.Main
+version: 0.1.0
+
+commands:
+  example:
+    description: example command
+    usage: /example
+    permission: example.command.example
+
+permissions:
+  example.command.example:
+    description: example command
+    default: true
